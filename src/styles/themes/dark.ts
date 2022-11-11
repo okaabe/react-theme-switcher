@@ -1,11 +1,14 @@
-import { ThemeScheme } from "./theme";
+export default {
 
-export const DarkTheme: ThemeScheme = {
-    name: 'dark',
-    colors: {
-        bg_focus: '',
-        bg_normal: '',
-        fg_focus: '',
-        fg_normal: ''
-    }
-}
+  title: 'dark',
+
+  colors: {
+    primary: '#2F195F',
+    secondary: '#7353ba',
+
+    backgound: '#0f1020',
+    text: '#FFF',
+
+  }
+
+};

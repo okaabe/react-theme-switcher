@@ -1,11 +1,14 @@
-import { ThemeScheme } from "./theme";
+export default {
 
-export const LightTheme: ThemeScheme = {
-    name: 'dark',
-    colors: {
-        bg_focus: '',
-        bg_normal: '',
-        fg_focus: '',
-        fg_normal: ''
-    }
-}
+  title: 'light',
+
+  colors: {
+    primary: '#7353ba',
+    secondary: '#2F195F',
+
+    backgound: '#f5f5f5',
+    text: '#000',
+
+  }
+
+};
